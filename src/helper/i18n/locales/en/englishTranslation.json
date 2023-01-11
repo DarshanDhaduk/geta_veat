@@ -1,0 +1,59 @@
+{
+    "SignIn": {
+        "signIn": "Sign In",
+        "title": "Enter a phone number to verify",
+        "btn_text": "Send verification code",
+        "Placeholder": {
+            "phone_number": "Phone number",
+            "Dont_have_account": "Don't have an account yet?"
+        },
+        "Errors": {
+            "phone_number": "The phone number is a required field and should include 10 digits"
+        }
+    },
+    "SignUp": {
+        "sign_up": "Sign up",
+        "Contact_Information": "Contact Information",
+        "Full_address": "full address",
+        "Placeholder": {
+            "Full_name": "Full name",
+            "Id_number": "Id Number",
+            "email": "email",
+            "phone_number": "phone number",
+            "full_address": "full address",
+            "address": "address",
+            "private_house": "private house",
+            "Apartment_number": "Apartment number",
+            "floor": "floor",
+            "I_agree_to_the": "I agree to the",
+            "tou": "terms of use",
+            "and": "and",
+            "privacy": "privacy",
+            "already_have_account": "Do you already have an account?",
+            "address_placeholder": "Street name, number, city"
+        },
+        "btn_text": "Create Account"
+    },
+    "Verification": {
+        "title": "Phone number verification",
+        "Header_text": "Please enter the verification code sent to you by SMS to 050-3844484",
+        "Placeholder": {
+            "Verification_code": "Verification code",
+            "Did_not_receive_message": "Did not receive a message?",
+            "send_again": "send again"
+        },
+        "Errors": {
+            "error": "Invalid verification code, please try again"
+        },
+        "Btn_text": "Continue"
+    },
+    "Header": {
+        "Log_out": "Log out",
+        "Sign_out": "signout",
+        "My_profile": "My profile",
+        "Vaccine_packages": "Vaccine packages",
+        "medical_record": "medical record",
+        "ordered_visits": "ordered visits",
+        "Home_Page": "Home Page"
+    }
+}

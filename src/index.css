@@ -1,0 +1,487 @@
+.Contact-info {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    text-align: right;
+    color: #3D332B;
+}
+
+.validErr-text {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    align-items: center;
+    text-align: right;
+    color: #FF3767;
+    margin: 0px !important;
+}
+
+.input-m-t {
+    margin-top: 14px;
+}
+
+.address-area {
+    margin-top: 48px;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    text-align: right;
+    color: #3D332B;
+}
+
+.address-label {
+    margin-top: 25px;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #3D332B;
+}
+
+.textarea {
+    width: 100%;
+    border: 1px solid #C2BDB9;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    text-align: right;
+    padding: 5px;
+}
+
+.ckeckbox-label-div {
+    align-items: center;
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.ckeckbox-label-div .check-label {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    align-items: center;
+    color: #3D332B;
+    width: fit-content;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.ckeckbox-label-div .checkbox input {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.Apartment-div {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.apar-num-div {
+    margin-right: 25px;
+    text-align: end;
+}
+
+.apar-num-div .aprt-num {
+    border: 1px solid #C2BDB9;
+    border-radius: 10px;
+    Width: 70px;
+    Height: 42px;
+    margin-left: 106px;
+
+}
+
+.floor-div {
+    text-align: end;
+}
+
+.floor-div .floor-num {
+    border: 1px solid #C2BDB9;
+    border-radius: 10px;
+    Width: 70px;
+    Height: 42px;
+}
+
+.terms-privacy {
+    margin-bottom: 0px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.terms-privacy a {
+    color: #D6AD8D;
+}
+
+
+
+
+/* ==========================Add Pets Details =============================== */
+
+.signin .general-info {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.profile {
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.claw-img {
+    position: absolute;
+    right: 0px;
+}
+
+.camera-div {
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    right: 60px;
+    top: 55px;
+}
+
+.camera-img {
+    position: absolute;
+    left: 5px;
+    top: 6px;
+}
+
+.petTypeLabel {
+    margin-top: 40px;
+}
+
+.typeofPet {
+    display: flex;
+    justify-content: end;
+}
+
+.typeofPet .disable {
+    background: transparent;
+    width: 100px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: none;
+    margin-top: 0px;
+    border-radius: 0px;
+    border: 1px solid #C2BDB9;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.typeofPet .active {
+    background: transparent;
+    width: 100px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: none;
+    margin-top: 0px;
+    border-radius: 0px;
+    border: 2px solid #FF878A;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.genderLabel {
+    margin-top: 20px;
+}
+
+.typeofgender {
+    display: flex;
+    justify-content: end;
+}
+
+.typeofgender .disable {
+    background: transparent;
+    width: 100px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: none;
+    margin-top: 0px;
+    border-radius: 0px;
+    border: 1px solid #C2BDB9;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.typeofgender img {
+    margin-left: 10px;
+}
+
+.typeofgender .active {
+    background: transparent;
+    width: 100px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: none;
+    margin-top: 0px;
+    border-radius: 0px;
+    border: 2px solid #FF878A;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.datePicker-div {
+    margin-top: 15px;
+}
+
+.datePicker-div .datepicker button {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 0px;
+    border-radius: none;
+    align-items: center;
+}
+
+.datePicker-div .datepicker {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #C2BDB9;
+    border-radius: 10px;
+    height: 42px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.datePicker-div .datepicker input {
+    background: transparent;
+    border: none !important;
+    border-radius: 0px;
+    height: fit-content;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.datePicker-div .react-date-picker__wrapper {
+    border: none !important;
+}
+
+.datePicker-div p {
+    font-size: 16px;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    color: #3D332B;
+}
+
+.chip-num-div {
+    margin-top: 3px;
+}
+
+.physical-info-div {
+    margin-top: 48px;
+    text-align: end;
+}
+
+.titel-text {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    text-align: right;
+    color: #3D332B;
+}
+
+.physical-info-div label {
+    margin-top: 10px;
+}
+
+.physical-info-div p {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: right;
+    color: #3D332B;
+}
+
+.physical-info-div .Weight {
+    height: 42px;
+    width: 71px;
+    border: 1px solid #C2BDB9;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-left: 10px;
+}
+
+.Weight-div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.Weight-div p {
+    margin-bottom: 0px;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.medical-info-div {
+    margin-top: 46px;
+    text-align: end;
+}
+
+.medical-info-div p {
+    margin-bottom: 0px;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 14px;
+}
+
+.medical-info-div .sub-p {
+    margin-top: 0px;
+}
+
+.medical-info-div .input-file {
+    border-style: dashed;
+    margin-top: 10px;
+}
+
+.medical-info-div .input-file-name {
+    border: 2px solid #FEE9D1;
+    margin-top: 22px;
+}
+
+.medical-info-div .text-aeria {
+    margin-top: 15px;
+}
+
+.medical-info-div .add-pet {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #3D332B;
+    border: 2px solid #D6AD8D;
+    background: transparent !important;
+    filter: drop-shadow(1px 1px 8px rgba(0, 0, 0, 0.15));
+    border-radius: 16px;
+}
+
+
+/*========================================= Home Page ========================== */
+
+.home-bg {
+    height: 100vh;
+    width: 100vw;
+    background: #FEE9D1;
+}
+
+.home-main-div {
+    width: 891px;
+    height: 767px;
+    background: #FFFDFD;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+/* ===================================================media */
+
+@media (max-width:1024px) {
+    .signin_logo_content {
+        width: 430px;
+    }
+
+    .signin_logo_content .page_name {
+        font-size: 30px;
+    }
+
+    .signin_forn .heade_text {
+        font-size: 13px;
+    }
+
+
+}
+
+
+@media (max-width:991px) {
+    .address-area {
+        background-color: #FFF5F6;
+        padding: 8px 0px;
+    }
+
+    .Contact-info {
+        background-color: #FFF5F6;
+        padding: 8px 0px;
+    }
+
+    .signin_logo_content .page_name {
+        font-size: 24px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+    .medical-info-div .add-pet {
+        display: block;
+        margin: 20px auto 0px auto;
+    }
+
+    .medical-info-div .finish-btn {
+        display: block;
+        margin: 20px auto 0px auto;
+    }
+
+    .titel-text {
+        background: #FFF5F6;
+        border-radius: 10px 10px 0px 0px;
+        padding: 10px;
+    }
+
+    .signin {
+        top: 68px;
+    }
+}
+
+@media (min-width:769px) {
+    .scroll-y {
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+}

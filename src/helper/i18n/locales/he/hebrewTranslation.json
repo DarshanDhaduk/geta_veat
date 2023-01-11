@@ -1,0 +1,59 @@
+{
+    "SignIn": {
+        "signIn": "להתחבר",
+        "title": "הזן מספר טלפון לאימות",
+        "btn_text": "שלח קוד אימות",
+        "Placeholder": {
+            "phone_number": "מספר טלפון",
+            "Dont_have_account": "אין לך עדיין חשבון?"
+        },
+        "Errors": {
+            "phone_number": "מספר הטלפון הוא שדה חובה ועליו לכלול 10 ספרות"
+        }
+    },
+    "SignUp": {
+        "sign_up": "הירשם",
+        "Contact_Information": "פרטי התקשרות",
+        "Full_address": "כתובת מלאה",
+        "Placeholder": {
+            "Full_name": "שם מלא",
+            "Id_number": "מספר תעודת זהות",
+            "email": "אימייל",
+            "phone_number": "מספר טלפון",
+            "full_address": "כתובת מלאה",
+            "address": "כתובת",
+            "private_house": "בית פרטי",
+            "Apartment_number": "מספר דירה",
+            "floor": "קוֹמָה",
+            "I_agree_to_the": "אני מסכים ל",
+            "tou": "תנאי שימוש",
+            "and": "ו",
+            "privacy": "פְּרָטִיוּת",
+            "already_have_account": "האם כבר יש לך חשבון?",
+            "address_placeholder": "שם רחוב, מספר, עיר"
+        },
+        "btn_text": "צור חשבון"
+    },
+    "Verification": {
+        "title": "אימות מספר טלפון",
+        "Header_text": "נא להזין את קוד האימות שנשלח אליך ב-SMS למספר 050-3844484",
+        "Placeholder": {
+            "Verification_code": "קוד אימות",
+            "Did_not_receive_message": "לא קיבלת הודעה?",
+            "send_again": "שלח שוב"
+        },
+        "Errors": {
+            "error": "קוד אימות לא חוקי, אנא נסה שוב"
+        },
+        "Btn_text": "לְהַמשִׁיך"
+    },
+    "Header": {
+        "Log_out": "להתנתק",
+        "Sign_out": "התנתק",
+        "My_profile": "הפרופיל שלי",
+        "Vaccine_packages": "חבילות חיסונים",
+        "medical_record": "תיק רפואי",
+        "ordered_visits": "הזמינו ביקורים",
+        "Home_Page": "דף הבית"
+    }
+}
